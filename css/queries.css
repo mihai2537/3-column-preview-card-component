@@ -1,0 +1,24 @@
+/* Below 890px */
+@media (max-width: 55.62em) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 35rem;
+    padding-block: 4.4rem;
+    padding-inline: 3.6rem;
+  }
+
+  .card-icon {
+    margin-bottom: 2.4rem;
+  }
+
+  .card-title {
+    margin-bottom: 2.4rem;
+  }
+
+  .card-text {
+    margin-bottom: 6.6rem;
+  }
+}
