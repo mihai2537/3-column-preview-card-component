@@ -123,9 +123,17 @@ body {
   padding-block: 1.2rem;
   background-color: var(--very-light-gray);
   border-radius: 30px;
-  /* color: red; */
 }
 
-a.card-cta {
+.card-cta:link,
+.card-cta:visited {
   text-decoration: none;
+  transition: all 200ms;
+}
+
+.card-cta:hover,
+.card-cta:active {
+  background-color: transparent;
+  border: 1px solid var(--very-light-gray);
+  color: var(--very-light-gray);
 }
