@@ -19,8 +19,11 @@
   --transparent-white: rgba(255, 255, 255, 0.75);
   --very-light-gray: hsl(0, 0%, 95%);
 
+  /* Font size */
   --fs-normal: 1.5rem;
   --fs-title: 4.4rem;
+
+  /* Font weight */
   --fw-normal: 400;
   --fw-bold: 700;
 
@@ -83,15 +86,7 @@ body {
   /* width: 115.2rem; */
   border-radius: 10px;
   overflow: hidden;
-  /* box-shadow: ; */
 }
-
-/* ******************** */
-/* Spaces */
-/* ******************** */
-/* 
-  2 / 4 / 8 / 12 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-*/
 
 .card {
   width: 30rem;
